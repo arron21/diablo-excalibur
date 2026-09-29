@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚔️</text></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diablo: Tristram & The Cathedral (Excalibur.js ARPG)</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Canvas for Excalibur.js -->
+    <canvas id="game-canvas"></canvas>
+
+    <!-- Initial Class Selection Modal -->
+    <div id="class-select-modal">
+      <div class="modal-content">
+        <h1 class="modal-title">DIABLO: ARPG</h1>
+        <p class="modal-subtitle">Choose your champion to descend into the Cathedral</p>
+
+        <div class="class-cards-container">
+          <div class="class-card" data-class="warrior">
+            <div class="class-card-icon">⚔️</div>
+            <div class="class-card-title">WARRIOR</div>
+            <div class="class-card-desc">Master of melee combat. High Strength and Vitality. Excels with shields and heavy armor.</div>
+          </div>
+
+          <div class="class-card" data-class="rogue">
+            <div class="class-card-icon">🏹</div>
+            <div class="class-card-title">ROGUE</div>
+            <div class="class-card-desc">Deadly marksman. High Dexterity, precision to-hit ratings, and agile bow combat.</div>
+          </div>
+
+          <div class="class-card" data-class="sorcerer">
+            <div class="class-card-icon">🔮</div>
+            <div class="class-card-title">SORCERER</div>
+            <div class="class-card-desc">Arcane master. High Magic pool and devastating spellcasting: Firebolt, Lightning, and Fire Wall.</div>
+          </div>
+        </div>
+
+        <p style="font-size: 11px; color: #78716c;">
+          Controls: Left-Click to Move & Attack • Shift+Click to Attack in Place • Right-Click to Cast Spell • 1-4 Belt Potions
+        </p>
+      </div>
+    </div>
+
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>
