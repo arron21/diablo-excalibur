@@ -6,6 +6,9 @@ A classic Action Role-Playing Game (ARPG) inspired by the original 1996 **Diablo
 ![Excalibur.js](https://img.shields.io/badge/engine-Excalibur.js%20v0.32-red.svg)
 ![TypeScript](https://img.shields.io/badge/language-TypeScript%205-blue.svg)
 ![Vite](https://img.shields.io/badge/bundler-Vite%206-purple.svg)
+[![Deploy to GitHub Pages](https://github.com/arron21/diablo-excalibur/actions/workflows/deploy.yml/badge.svg)](https://github.com/arron21/diablo-excalibur/actions/workflows/deploy.yml)
+
+🎮 **Play Live in Browser**: [https://arron21.github.io/diablo-excalibur/](https://arron21.github.io/diablo-excalibur/)
 
 ---
 
