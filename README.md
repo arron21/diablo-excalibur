@@ -79,5 +79,10 @@ npm run build
 
 ---
 
+## Changelog
+See [CHANGELOG.md](./CHANGELOG.md) for a detailed list of changes and version history.
+
+---
+
 ## License
 MIT
